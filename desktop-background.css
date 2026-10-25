@@ -1,0 +1,8 @@
+.dc-desktop-background{position:fixed;inset:0;z-index:0;pointer-events:none;isolation:isolate;background:#03040a;overflow:hidden}
+.dc-desktop-background[hidden]{display:none!important}
+.dc-desktop-background #bg-matrix-canvas{position:absolute;inset:0;z-index:0;pointer-events:none}
+.dc-desktop-background #bg-spotlight{position:absolute;inset:0;z-index:1;pointer-events:none;background:rgba(3,4,10,.93)}
+.dc-desktop-background #bg-plexus{position:absolute;inset:0;z-index:2;pointer-events:none}
+.dc-desktop-background #bg-scanlines{position:absolute;inset:0;z-index:3;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.025) 2px,rgba(0,0,0,.025) 4px)}
+.dc-desktop-background #bg-vignette{position:absolute;inset:0;z-index:4;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,transparent 30%,rgba(3,4,10,.55) 100%)}
+@media(min-width:701px) and (hover:hover) and (pointer:fine){.site-video-bg{display:none!important}}

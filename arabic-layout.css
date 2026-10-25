@@ -1,0 +1,15 @@
+html[dir=rtl] body{font-family:Tahoma,Arial,sans-serif}
+html[dir=rtl] :is(h1,h2,h3,h4,p,a,button,label,li,em,.display,.hero-title,.sidenote){letter-spacing:normal!important}
+html[dir=rtl] :is(.display,.hero-title,h1,h2){line-height:1.4}
+html[dir=rtl] :is(.hero-title em,.display em,h1 em,h2 em){font-family:inherit;font-style:normal}
+html[dir=rtl] :is(input[type=email],input[type=tel],input[type=url],#contact-country-code,.mock-url,.browser-top,.brand,.brand-logo){direction:ltr;unicode-bidi:isolate}
+html[dir=rtl] :is(input,textarea){text-align:right}
+html[dir=rtl] :is(input[type=email],input[type=tel],input[type=url]){text-align:left}
+html[dir=rtl] :is(.lang-menu button,.menu-list a,.footer nav,.portfolio-text,.field label,.legal-card){text-align:start}
+html[dir=rtl] .lang-menu{right:auto;left:0}
+html[dir=rtl] .lang-btn,html[dir=rtl] .lang-menu button{font-family:Tahoma,Arial,sans-serif}
+html[dir=rtl] :is(.ba,.ba-wrap,.portfolio-visual,.mock){direction:ltr}
+html[dir=rtl] :is(.ba .old,.ba .new){direction:rtl}
+html[dir=rtl] .legal-card ul{padding-left:0;padding-right:1.25rem}
+html[dir=rtl] .back::after{content:'عودة'}
+.legal-language{background:transparent;color:inherit;border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:7px 14px;cursor:pointer;font:inherit;font-size:13px}

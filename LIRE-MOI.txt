@@ -1,0 +1,17 @@
+DIGITAL CONCEPTS SUISSE — FOND PC 3D ET ARABE
+
+Décompressez puis déposez tous les fichiers à la racine du dépôt, sans sous-dossier. index.html doit être directement à la racine.
+
+Sur ordinateur avec souris (largeur supérieure à 700 px), le fond vidéo est remplacé par le fond 3D interactif du site marocain : particules, lignes et halo de code au survol. Three.js est inclus localement et chargé uniquement pour ce fond.
+
+Sur téléphone, la vidéo et l’image de fond originales du site suisse sont conservées, sans recompression ni changement visuel. La structure, les contenus des langues existantes et les médias du site suisse sont conservés.
+
+L’arabe est ajouté au sélecteur de langue des quatre pages principales. Les textes, les formulaires, les projets et les FAQ sont traduits, avec affichage de droite à gauche. Les trois pages légales disposent aussi de la traduction arabe et d’un bouton de retour à l’allemand.
+
+Les autres vidéos restent sur Cloudinary : conservez-les sur votre compte.
+
+Vérifications : ouverture des sept pages en arabe sur ordinateur et en simulation mobile, absence d’erreurs JavaScript et de débordement horizontal ; fond 3D sur ordinateur et vidéo originale sur mobile.
+
+MISE À JOUR MOTION DESIGN
+Section équipe / Qui sommes-nous et liens associés retirés. Service motion design ajouté en DE/FR/EN/AR. Vidéo complète avec son, lecteur natif et preload=none : aucun chargement vidéo avant lecture. MP4 optimisé faststart + aperçu WebP.
+La nouvelle vidéo est incluse localement et sera servie par votre hébergement après dépôt du dossier. Elle n’est pas encore envoyée à Cloudinary (accès d’upload absent). Pour utiliser le même CDN que les autres vidéos : envoyer motion-design-entreprises.mp4 via Cloudinary > Media Library > Upload, puis remplacer son chemin dans index.html par l’URL de diffusion retournée.
